@@ -5,6 +5,7 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int i;
@@ -20,9 +21,9 @@ int main(void)
 		{
 			sum = sum + j;
 		}
-	        next = j + k;
+		next = j + k;
 		j = k;
-                k = next;
+		k = next;
 	}
 
 	printf("%lu\n", sum);
