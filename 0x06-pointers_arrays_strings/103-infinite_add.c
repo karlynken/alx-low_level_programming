@@ -5,6 +5,7 @@
  * @n: integer params
  * Return: 0
  */
+
 void rev_string(char *n)
 {
 	int i = 0;
@@ -13,7 +14,7 @@ void rev_string(char *n)
 
 	while (*(n + i) != '\0')
 	{
-	      i++;
+		i++;
 	}
 	i--;
 
